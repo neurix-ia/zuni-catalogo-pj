@@ -241,10 +241,9 @@
   .pick-summary b { color: var(--accent-deep); }
   .pick-actions { display: flex; gap: 0.6rem; align-items: center; }
   .btn-copy {
-    background: var(--accent); color: var(--accent-ink); border: none; font-weight: 600; font-size: 0.88rem;
-    padding: 0.7rem 1.2rem; border-radius: 9px; cursor: pointer; white-space: nowrap;
+    display: inline-block; background: var(--accent); color: var(--accent-ink); border: none; font-weight: 600; font-size: 0.88rem;
+    padding: 0.7rem 1.2rem; border-radius: 9px; cursor: pointer; white-space: nowrap; text-decoration: none;
   }
-  .btn-copy.copied { background: var(--leather-green); }
 
   .chip { cursor: pointer; background: var(--panel); font: inherit; }
   .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
@@ -393,7 +392,7 @@
 
 <div class="cta-final wrap" style="max-width: 1120px;">
   <h2>Escolheu? Volta pra nossa conversa</h2>
-  <p>Se já sabe o modelo e a cor, usa o botão aí embaixo pra copiar sua escolha e cola direto no nosso chat do WhatsApp. Se ainda tá decidindo, sem pressa — dá uma navegada com calma.</p>
+  <p>Assim que escolher um modelo e uma cor, aparece um botão aí embaixo que te leva direto de volta pro nosso chat, já com sua escolha escrita — só apertar enviar. Se ainda tá decidindo, sem pressa.</p>
 </div>
 
 <footer>Zuni Couros e Sintético — R. João Bettega, 1320, Portão, Curitiba/PR</footer>
@@ -410,7 +409,7 @@
       <span id="pick-text">—</span>
     </div>
     <div class="pick-actions">
-      <button class="btn-copy" id="pick-copy" type="button">Copiar pra colar no chat</button>
+      <a class="btn-copy" id="pick-return" href="#" target="_blank" rel="noopener">Voltar pra conversa ↩</a>
     </div>
   </div>
 </div>
@@ -434,9 +433,11 @@ window.__ZUNI_ASSETS__ = {"hero": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAYA
     });
 
     // Selection state
+    var ZUNI_WHATSAPP = '5541998560398';
     var picked = { model: null, color: null };
     var pickBar = document.getElementById('pick-bar');
     var pickText = document.getElementById('pick-text');
+    var pickReturn = document.getElementById('pick-return');
 
     function updatePickBar() {
       if (!picked.model && !picked.color) { pickBar.classList.remove('show'); return; }
@@ -445,6 +446,12 @@ window.__ZUNI_ASSETS__ = {"hero": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAYA
       if (picked.color) parts.push('cor ' + picked.color);
       pickText.textContent = parts.join(' · ');
       pickBar.classList.add('show');
+
+      var msg = 'Oi! Já escolhi aqui no catálogo';
+      if (picked.model) msg += ': modelo ' + picked.model;
+      if (picked.color) msg += (picked.model ? ',' : ':') + ' cor ' + picked.color;
+      msg += '. Pode me ajudar a fechar o pedido?';
+      pickReturn.href = 'https://wa.me/' + ZUNI_WHATSAPP + '?text=' + encodeURIComponent(msg);
     }
 
     // Models data — filled with real asset URLs at publish time
@@ -484,24 +491,6 @@ window.__ZUNI_ASSETS__ = {"hero": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAYA
         picked.color = chip.dataset.color;
         updatePickBar();
       });
-    });
-
-    // Copy to clipboard
-    document.getElementById('pick-copy').addEventListener('click', function (e) {
-      var msg = 'Oi! Já escolhi aqui no catálogo';
-      if (picked.model) msg += ': modelo ' + picked.model;
-      if (picked.color) msg += (picked.model ? ',' : ':') + ' cor ' + picked.color;
-      msg += '. Pode me ajudar a fechar o pedido?';
-      var done = function () {
-        e.target.textContent = 'Copiado! Cola no chat';
-        e.target.classList.add('copied');
-        setTimeout(function () { e.target.textContent = 'Copiar pra colar no chat'; e.target.classList.remove('copied'); }, 2500);
-      };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(msg).then(done).catch(function () { window.prompt('Copia esse texto:', msg); });
-      } else {
-        window.prompt('Copia esse texto:', msg);
-      }
     });
 
     // Seg images + split images — filled via window.__ZUNI_ASSETS__
