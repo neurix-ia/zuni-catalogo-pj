@@ -116,7 +116,7 @@
     padding: 4.5rem 1.5rem 5rem;
     display: grid; gap: 3rem;
   }
-  @media (min-width: 900px) { .hero { grid-template-columns: 1.05fr 0.95fr; align-items: center; padding-top: 5.5rem; } }
+  @media (min-width: 900px) { .hero { grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); align-items: center; padding-top: 5.5rem; } }
   .hero h1 { font-size: clamp(2.5rem, 5.2vw, 3.8rem); font-weight: 700; line-height: 1.03; }
   .hero h1 em { font-style: normal; color: var(--accent-deep); }
   .hero p.lede { font-size: 1.1rem; color: var(--ink-dim); max-width: 46ch; margin: 1.4rem 0 2rem; }
@@ -134,7 +134,7 @@
   .hero-media video { width: 100%; height: 100%; object-fit: cover; }
 
   .stat-strip {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px;
     background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
     margin-top: 3rem;
   }
@@ -161,7 +161,7 @@
     padding: 2.2rem; box-shadow: var(--shadow);
   }
   .seg-panel.active { display: grid; gap: 2rem; grid-template-columns: 1fr; }
-  @media (min-width: 800px) { .seg-panel.active { grid-template-columns: 1.1fr 0.9fr; } }
+  @media (min-width: 800px) { .seg-panel.active { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); } }
   .seg-panel h3 { font-size: 1.5rem; margin-bottom: 0.7rem; }
   .seg-panel .tag { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; padding: 0.25rem 0.6rem; border-radius: 6px; margin-bottom: 0.9rem; letter-spacing: 0.04em; }
   .seg-panel p { color: var(--ink-dim); }
@@ -171,8 +171,8 @@
   .seg-img { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
 
   /* MODELOS */
-  .model-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2.4rem; }
-  @media (min-width: 700px) { .model-grid { grid-template-columns: repeat(4, 1fr); } }
+  .model-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 2.4rem; }
+  @media (min-width: 700px) { .model-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
   .model-card {
     background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
     cursor: pointer; transition: transform 0.15s ease, border-color 0.15s ease;
@@ -196,7 +196,7 @@
 
   /* CORES + DIFERENCIAIS */
   .split { display: grid; gap: 3rem; }
-  @media (min-width: 900px) { .split { grid-template-columns: 1fr 1fr; align-items: center; } }
+  @media (min-width: 900px) { .split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; } }
   .split img { border-radius: 16px; border: 1px solid var(--line); box-shadow: var(--shadow); }
   .split h2 { font-size: clamp(1.8rem, 3vw, 2.3rem); margin-bottom: 1rem; }
   .split p { color: var(--ink-dim); }
@@ -208,7 +208,7 @@
 
   /* VIDEOS */
   .video-grid { display: grid; gap: 1.4rem; margin-top: 2.4rem; }
-  @media (min-width: 800px) { .video-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 800px) { .video-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .video-card { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); box-shadow: var(--shadow); }
   .video-card video { width: 100%; aspect-ratio: 9/16; object-fit: cover; }
   .video-card .vcap { padding: 0.9rem 1rem; font-size: 0.85rem; font-weight: 600; }
@@ -280,12 +280,12 @@
   /* COLOR SLOTS (frente / verso) */
   .color-block { margin-top: 2.8rem; padding-top: 2.4rem; border-top: 1px solid var(--line); }
   .color-slots { display: grid; gap: 1.6rem; margin-top: 1.4rem; }
-  @media (min-width: 640px) { .color-slots { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 640px) { .color-slots { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
   .slot-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent-deep); display: block; margin-bottom: 0.6rem; }
 
   /* PRODUCT GALLERY (cardápios / outros) */
-  .prod-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2rem; }
-  @media (min-width: 700px) { .prod-gallery { grid-template-columns: repeat(3, 1fr); } }
+  .prod-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+  @media (min-width: 700px) { .prod-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .prod-gallery figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
   .prod-gallery .thumb-wrap { aspect-ratio: 4/5; overflow: hidden; background: var(--ground-alt); }
   .prod-gallery img { width: 100%; height: 100%; object-fit: cover; }
@@ -298,6 +298,9 @@
     .topbar .hint { display: none !important; }
     .nav-links { gap: 0.9rem; font-size: 0.8rem; }
     .brand { font-size: 1rem; }
+    .stat { padding: 1rem 0.5rem; }
+    .stat .n { font-size: 1.3rem; }
+    .stat .l { font-size: 0.68rem; }
     .pick-bar-inner { flex-direction: column; align-items: stretch; gap: 0.7rem; }
     .pick-actions { width: 100%; }
     .btn-copy { width: 100%; text-align: center; }
