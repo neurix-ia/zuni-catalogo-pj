@@ -55,6 +55,7 @@
 
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
+  html, body { overflow-x: hidden; max-width: 100%; }
   body {
     margin: 0;
     background: var(--ground);
@@ -293,6 +294,10 @@
   /* MOBILE REFINEMENTS */
   @media (max-width: 480px) {
     section { padding: 3.6rem 1.1rem; }
+    .topbar-inner { padding: 0.75rem 1.1rem; flex-wrap: wrap; gap: 0.5rem 0.9rem; }
+    .topbar .hint { display: none !important; }
+    .nav-links { gap: 0.9rem; font-size: 0.8rem; }
+    .brand { font-size: 1rem; }
     .pick-bar-inner { flex-direction: column; align-items: stretch; gap: 0.7rem; }
     .pick-actions { width: 100%; }
     .btn-copy { width: 100%; text-align: center; }
@@ -593,7 +598,7 @@ window.__ZUNI_EXTRA__ = {"produto-cardapio-real": "data:image/jpeg;base64,/9j/4A
     window.addEventListener('hashchange', function () { applyHashRoute(true); });
 
     // Selection state — two color slots: frente (1) e verso (2)
-    var ZUNI_WHATSAPP = '5541998560398';
+    var ZUNI_WHATSAPP = '554137982595'; // numero de TESTE (inbox65 compartilhada) -- nao trocar pro numero oficial sem confirmar com o Diego
     var picked = { model: null, color1: null, color2: null };
     var pickBar = document.getElementById('pick-bar');
     var pickText = document.getElementById('pick-text');
