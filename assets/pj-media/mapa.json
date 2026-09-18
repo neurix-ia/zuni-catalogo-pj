@@ -1,0 +1,458 @@
+[
+  {
+    "chave": "card_medidas",
+    "origem": "cardapio/01 medidas capas de cardápios.jpeg",
+    "github": "assets/pj-media/card_medidas.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_medidas.jpg",
+    "mime": "image/jpeg",
+    "bytes": 70439
+  },
+  {
+    "chave": "card_todos",
+    "origem": "cardapio/todos cardápios.jpeg",
+    "github": "assets/pj-media/card_todos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_todos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 300152
+  },
+  {
+    "chave": "card_geral",
+    "origem": "cardapio/cardapios.png",
+    "github": "assets/pj-media/card_geral.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_geral.jpg",
+    "mime": "image/jpeg",
+    "bytes": 147487
+  },
+  {
+    "chave": "card_elastico",
+    "origem": "cardapio/fixação em elastico.jpeg",
+    "github": "assets/pj-media/card_elastico.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_elastico.jpg",
+    "mime": "image/jpeg",
+    "bytes": 293520
+  },
+  {
+    "chave": "card_parafuso",
+    "origem": "cardapio/fixação em parafusos.jpeg",
+    "github": "assets/pj-media/card_parafuso.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_parafuso.jpg",
+    "mime": "image/jpeg",
+    "bytes": 382001
+  },
+  {
+    "chave": "card_pronto_parafuso",
+    "origem": "cardapio/cardápio com parafusos.jpeg",
+    "github": "assets/pj-media/card_pronto_parafuso.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_pronto_parafuso.jpg",
+    "mime": "image/jpeg",
+    "bytes": 355364
+  },
+  {
+    "chave": "card_baixo_relevo",
+    "origem": "cardapio/personalizaçao baixo relevo caap.jpeg",
+    "github": "assets/pj-media/card_baixo_relevo.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_baixo_relevo.jpg",
+    "mime": "image/jpeg",
+    "bytes": 209060
+  },
+  {
+    "chave": "card_logo_vinho",
+    "origem": "cardapio/Logomarca para carta de vinhos.jpeg",
+    "github": "assets/pj-media/card_logo_vinho.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/card_logo_vinho.jpg",
+    "mime": "image/jpeg",
+    "bytes": 183784
+  },
+  {
+    "chave": "cores_jogos",
+    "origem": "CORES/CORES JOGOS AMERICANOS.jpeg",
+    "github": "assets/pj-media/cores_jogos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_jogos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 665363
+  },
+  {
+    "chave": "cores_card",
+    "origem": "CORES/cores cardápios.jpeg",
+    "github": "assets/pj-media/cores_card.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_card.jpg",
+    "mime": "image/jpeg",
+    "bytes": 187896
+  },
+  {
+    "chave": "cores_copos",
+    "origem": "CORES/cores porta copos.jpeg",
+    "github": "assets/pj-media/cores_copos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_copos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 443097
+  },
+  {
+    "chave": "cores_contas",
+    "origem": "CORES/cores porta contas.jpeg",
+    "github": "assets/pj-media/cores_contas.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_contas.jpg",
+    "mime": "image/jpeg",
+    "bytes": 289994
+  },
+  {
+    "chave": "cores_talheres",
+    "origem": "CORES/cores porta talheres.jpeg",
+    "github": "assets/pj-media/cores_talheres.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_talheres.jpg",
+    "mime": "image/jpeg",
+    "bytes": 236868
+  },
+  {
+    "chave": "cores_pranchetas",
+    "origem": "CORES/cores pranchetas .jpeg",
+    "github": "assets/pj-media/cores_pranchetas.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_pranchetas.jpg",
+    "mime": "image/jpeg",
+    "bytes": 968502
+  },
+  {
+    "chave": "jogos_geral",
+    "origem": "diferencial jogos americanos zuni/01jogos americanos zuni.jpeg",
+    "github": "assets/pj-media/jogos_geral.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_geral.jpg",
+    "mime": "image/jpeg",
+    "bytes": 218260
+  },
+  {
+    "chave": "jogos_baixo_relevo",
+    "origem": "diferencial jogos americanos zuni/Personalização baixo relevo.png",
+    "github": "assets/pj-media/jogos_baixo_relevo.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_baixo_relevo.jpg",
+    "mime": "image/jpeg",
+    "bytes": 470862
+  },
+  {
+    "chave": "jogos_duas_cores",
+    "origem": "diferencial jogos americanos zuni/duas cores para escolher.jpeg",
+    "github": "assets/pj-media/jogos_duas_cores.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_duas_cores.jpg",
+    "mime": "image/jpeg",
+    "bytes": 315204
+  },
+  {
+    "chave": "jogos_espessura",
+    "origem": "diferencial jogos americanos zuni/diferencial espessura material .jpeg",
+    "github": "assets/pj-media/jogos_espessura.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_espessura.jpg",
+    "mime": "image/jpeg",
+    "bytes": 254386
+  },
+  {
+    "chave": "jogos_dupla_face",
+    "origem": "diferencial jogos americanos zuni/mostrando dupla face.jpeg",
+    "github": "assets/pj-media/jogos_dupla_face.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_dupla_face.jpg",
+    "mime": "image/jpeg",
+    "bytes": 194654
+  },
+  {
+    "chave": "jogos_dupla_premium",
+    "origem": "diferencial jogos americanos zuni/Dupla face material alto padrão.jpeg",
+    "github": "assets/pj-media/jogos_dupla_premium.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_dupla_premium.jpg",
+    "mime": "image/jpeg",
+    "bytes": 156783
+  },
+  {
+    "chave": "jogos_costura",
+    "origem": "diferencial jogos americanos zuni/costura acabamento premium.jpeg",
+    "github": "assets/pj-media/jogos_costura.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_costura.jpg",
+    "mime": "image/jpeg",
+    "bytes": 408749
+  },
+  {
+    "chave": "autoridade",
+    "origem": "diferencial jogos americanos zuni/autoridade.jpeg",
+    "github": "assets/pj-media/autoridade.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/autoridade.jpg",
+    "mime": "image/jpeg",
+    "bytes": 251163
+  },
+  {
+    "chave": "todo_brasil",
+    "origem": "diferencial jogos americanos zuni/07todobrasil.jpg",
+    "github": "assets/pj-media/todo_brasil.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/todo_brasil.jpg",
+    "mime": "image/jpeg",
+    "bytes": 70305
+  },
+  {
+    "chave": "produto_jogos",
+    "origem": "PRODUTOS ZUNI/Americanos.jpg",
+    "github": "assets/pj-media/produto_jogos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_jogos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 286266
+  },
+  {
+    "chave": "produto_card",
+    "origem": "PRODUTOS ZUNI/Cardápios.jpg",
+    "github": "assets/pj-media/produto_card.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_card.jpg",
+    "mime": "image/jpeg",
+    "bytes": 320873
+  },
+  {
+    "chave": "produto_copos",
+    "origem": "PRODUTOS ZUNI/Porta Copos.jpg",
+    "github": "assets/pj-media/produto_copos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_copos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 337987
+  },
+  {
+    "chave": "produto_contas",
+    "origem": "PRODUTOS ZUNI/Porta Contas.jpg",
+    "github": "assets/pj-media/produto_contas.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_contas.jpg",
+    "mime": "image/jpeg",
+    "bytes": 281639
+  },
+  {
+    "chave": "produto_talher",
+    "origem": "PRODUTOS ZUNI/Porta Talher.jpg",
+    "github": "assets/pj-media/produto_talher.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_talher.jpg",
+    "mime": "image/jpeg",
+    "bytes": 221082
+  },
+  {
+    "chave": "produto_prancheta",
+    "origem": "PRODUTOS ZUNI/Prancheta.jpg",
+    "github": "assets/pj-media/produto_prancheta.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_prancheta.jpg",
+    "mime": "image/jpeg",
+    "bytes": 270057
+  },
+  {
+    "chave": "produto_deskpad",
+    "origem": "PRODUTOS ZUNI/Deskpad.jpg",
+    "github": "assets/pj-media/produto_deskpad.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_deskpad.jpg",
+    "mime": "image/jpeg",
+    "bytes": 263240
+  },
+  {
+    "chave": "produto_anel",
+    "origem": "PRODUTOS ZUNI/Anel de Guardanapo.jpg",
+    "github": "assets/pj-media/produto_anel.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/produto_anel.jpg",
+    "mime": "image/jpeg",
+    "bytes": 226011
+  },
+  {
+    "chave": "jogos_sob_medida",
+    "origem": "PRODUTOS ZUNI/Medidas especiais - americano sob medida.jpg",
+    "github": "assets/pj-media/jogos_sob_medida.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/jogos_sob_medida.jpg",
+    "mime": "image/jpeg",
+    "bytes": 249744
+  },
+  {
+    "chave": "cores_contas_produto",
+    "origem": "PRODUTOS ZUNI/Cores - Porta contas.jpg",
+    "github": "assets/pj-media/cores_contas_produto.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/cores_contas_produto.jpg",
+    "mime": "image/jpeg",
+    "bytes": 334616
+  },
+  {
+    "chave": "mix_produtos",
+    "origem": "PRODUTOS ZUNI/Mix de todos os produtos.jpg",
+    "github": "assets/pj-media/mix_produtos.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/mix_produtos.jpg",
+    "mime": "image/jpeg",
+    "bytes": 281245
+  },
+  {
+    "chave": "modelos_geral",
+    "origem": "modelos/Modelos.jpeg",
+    "github": "assets/pj-media/modelos_geral.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/modelos_geral.jpg",
+    "mime": "image/jpeg",
+    "bytes": 62014
+  },
+  {
+    "chave": "modelos_redonda",
+    "origem": "modelos/modelos para mesas redondas.jpeg",
+    "github": "assets/pj-media/modelos_redonda.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/modelos_redonda.jpg",
+    "mime": "image/jpeg",
+    "bytes": 250246
+  },
+  {
+    "chave": "modelos_2",
+    "origem": "modelos/modelos  (2).jpeg",
+    "github": "assets/pj-media/modelos_2.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/modelos_2.jpg",
+    "mime": "image/jpeg",
+    "bytes": 64509
+  },
+  {
+    "chave": "modelos_3",
+    "origem": "modelos/modelos (3).jpeg",
+    "github": "assets/pj-media/modelos_3.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/modelos_3.jpg",
+    "mime": "image/jpeg",
+    "bytes": 158974
+  },
+  {
+    "chave": "modelos_4",
+    "origem": "modelos/modelos (4).jpeg",
+    "github": "assets/pj-media/modelos_4.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/modelos_4.jpg",
+    "mime": "image/jpeg",
+    "bytes": 72625
+  },
+  {
+    "chave": "formato_retangular",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/01 retangular.png",
+    "github": "assets/pj-media/formato_retangular.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_retangular.jpg",
+    "mime": "image/jpeg",
+    "bytes": 200175
+  },
+  {
+    "chave": "formato_oval",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/02 oval.png",
+    "github": "assets/pj-media/formato_oval.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_oval.jpg",
+    "mime": "image/jpeg",
+    "bytes": 344629
+  },
+  {
+    "chave": "formato_redondo",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/REDONDO.png",
+    "github": "assets/pj-media/formato_redondo.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_redondo.jpg",
+    "mime": "image/jpeg",
+    "bytes": 374020
+  },
+  {
+    "chave": "formato_elipse",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/elipse.png",
+    "github": "assets/pj-media/formato_elipse.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_elipse.jpg",
+    "mime": "image/jpeg",
+    "bytes": 245525
+  },
+  {
+    "chave": "formato_chanfrado",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/chanfrado.png",
+    "github": "assets/pj-media/formato_chanfrado.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_chanfrado.jpg",
+    "mime": "image/jpeg",
+    "bytes": 187421
+  },
+  {
+    "chave": "formato_leque",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/leque.png",
+    "github": "assets/pj-media/formato_leque.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_leque.jpg",
+    "mime": "image/jpeg",
+    "bytes": 236621
+  },
+  {
+    "chave": "formato_talher",
+    "origem": "MODELOS JOGOS AMERICANOS ATACADO/002modelo talher.png",
+    "github": "assets/pj-media/formato_talher.jpg",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/formato_talher.jpg",
+    "mime": "image/jpeg",
+    "bytes": 217523
+  },
+  {
+    "chave": "video_produtos",
+    "origem": "videos/PRODUTOS.mp4",
+    "github": "assets/pj-media/video_produtos.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_produtos.mp4",
+    "mime": "video/mp4",
+    "bytes": 6156117
+  },
+  {
+    "chave": "video_modelos",
+    "origem": "videos/MODELOS.mp4",
+    "github": "assets/pj-media/video_modelos.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_modelos.mp4",
+    "mime": "video/mp4",
+    "bytes": 9280725
+  },
+  {
+    "chave": "video_redonda",
+    "origem": "videos/modelos para mesas redondas.mp4",
+    "github": "assets/pj-media/video_redonda.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_redonda.mp4",
+    "mime": "video/mp4",
+    "bytes": 3507659
+  },
+  {
+    "chave": "video_diferencial",
+    "origem": "videos/DIFERENCIAL.mp4",
+    "github": "assets/pj-media/video_diferencial.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_diferencial.mp4",
+    "mime": "video/mp4",
+    "bytes": 4380355
+  },
+  {
+    "chave": "video_premium",
+    "origem": "videos/diferencial produto premium de verdade.mp4",
+    "github": "assets/pj-media/video_premium.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_premium.mp4",
+    "mime": "video/mp4",
+    "bytes": 13154504
+  },
+  {
+    "chave": "video_cores_jogos",
+    "origem": "videos/variedade de cores jogos americanos.mp4",
+    "github": "assets/pj-media/video_cores_jogos.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_cores_jogos.mp4",
+    "mime": "video/mp4",
+    "bytes": 8807745
+  },
+  {
+    "chave": "video_personalizacao",
+    "origem": "videos/personalização.mp4",
+    "github": "assets/pj-media/video_personalizacao.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_personalizacao.mp4",
+    "mime": "video/mp4",
+    "bytes": 5720138
+  },
+  {
+    "chave": "video_restaurante",
+    "origem": "videos/para dono de restaurante.mp4",
+    "github": "assets/pj-media/video_restaurante.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_restaurante.mp4",
+    "mime": "video/mp4",
+    "bytes": 12056484
+  },
+  {
+    "chave": "video_5_motivos",
+    "origem": "videos/5 motivos.mp4",
+    "github": "assets/pj-media/video_5_motivos.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_5_motivos.mp4",
+    "mime": "video/mp4",
+    "bytes": 9845403
+  },
+  {
+    "chave": "video_limpeza",
+    "origem": "videos/limpeza (2).mp4",
+    "github": "assets/pj-media/video_limpeza.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj-media/video_limpeza.mp4",
+    "mime": "video/mp4",
+    "bytes": 6411126
+  },
+  {
+    "chave": "video_apresentacao",
+    "origem": "assets/pj/apresentacao.mp4 (ja no GitHub, 8MB WhatsApp-safe; zip tinha 82MB)",
+    "github": "assets/pj/apresentacao.mp4",
+    "url": "https://raw.githubusercontent.com/neurix-ia/zuni-catalogo-pj/main/assets/pj/apresentacao.mp4",
+    "mime": "video/mp4",
+    "bytes": 8060002
+  }
+]
